@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "build": "node index.js",
+        "build:html": "posthtml -c posthtml.json",
+        "watch:html": "npm run build:html & onchange \"html/**/*.html\" -- npm run build:html"
+    },
+    "devDependencies": {
+        "onchange": "^7.1.0",
+        "posthtml": "^0.16.6",
+        "posthtml-modules": "^0.9.0"
+    },
+    "dependencies": {
+        "posthtml-cli": "^0.10.0"
+    }
+}
