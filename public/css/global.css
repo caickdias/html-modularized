@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+    width: '100%';
+    background-color: lightgray;
+}
+
+.footer {
+    height: 250px;
+    width: '100%';
+    background-color: lightcoral;
+}
+
+.home-content {
+    height: 180px;
+    width: '100%';
+    background-color: lightgreen;
+}

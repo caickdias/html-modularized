@@ -1,6 +1,6 @@
 const { readFileSync } = require('fs')
 const posthtml = require('posthtml')
-const options = { /* see available options below */ }
+const options = { }
 
 posthtml()
   .use(require('posthtml-modules')(options))

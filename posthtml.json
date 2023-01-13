@@ -1,6 +1,6 @@
 {
     "input": "html/*.html",
-    "output": "build",
+    "output": "public",
     "plugins": {
         "posthtml-modules": {
             "root": "./html",
