@@ -56,7 +56,7 @@ To create a new page you can  run the command below:
 ```
 node create page page-name (args)
 ```
-| Args                            |
+| Args   |              |         |
 |---------------------------------|
 | Command | Description | Example |
 |---------|-------------|---------|
