@@ -62,6 +62,7 @@ node create page page-name (args)
 | Command | Description | Example |
 |---------|-------------|---------|
 |--noscript or -ns | will not create file in scripts folder | `node create page page-with-no-script --noscript` |
+| no args | create your page, content and script files | `node create page-name` |
 
 You can add files manually too. Your page should have `.html` extension and be in the root of `/html/` folder. Then import `layout.html` if you want. Then create your content file in `/html/content/YOUR-FILE-NAME.html` and import it too. You can also do the same for scripts. 
 
