@@ -21,6 +21,30 @@ npm install
 
 # Usage
 
+## Creating new page
+
+To create a new page you can  run the command below:
+```
+node create page page-name (args)
+```
+
+## Args
+
+| Command | Description | Example |
+|---------|-------------|---------|
+|--noscript or -ns | will not create file in scripts folder | `node create page page-with-no-script --noscript` |
+| no args | create your page, content and script files | `node create page-name` |
+
+You can add files manually too. Your page should have `.html` extension and be in the root of `/html/` folder. Then import `layout.html` if you want. Then create your content file in `/html/content/YOUR-FILE-NAME.html` and import it too. You can also do the same for scripts. 
+
+Page example:
+```
+<module href="/_layout/layout.html">  
+  <module href="/content/home.html"></module>  
+  <module href="/scripts/home.html"></module>  
+</module>
+```
+
 ## File structure
 
 All of your HTML should be written in the `./html` folder. There are 4 basic folders and HTML files in the root.
@@ -49,30 +73,6 @@ All of your HTML should be written in the `./html` folder. There are 4 basic fol
 ## CSS, JS, Images
 
 All of your other file types should be in the `/public/` directory. Since we're going to build our HTML there, that should be considered as our root page for our imports.
-
-## Creating new page
-
-To create a new page you can  run the command below:
-```
-node create page page-name (args)
-```
-
-## Args
-
-| Command | Description | Example |
-|---------|-------------|---------|
-|--noscript or -ns | will not create file in scripts folder | `node create page page-with-no-script --noscript` |
-| no args | create your page, content and script files | `node create page-name` |
-
-You can add files manually too. Your page should have `.html` extension and be in the root of `/html/` folder. Then import `layout.html` if you want. Then create your content file in `/html/content/YOUR-FILE-NAME.html` and import it too. You can also do the same for scripts. 
-
-Page example:
-```
-<module href="/_layout/layout.html">  
-  <module href="/content/home.html"></module>  
-  <module href="/scripts/home.html"></module>  
-</module>
-```
 
 ## Configuration
 
