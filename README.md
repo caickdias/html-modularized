@@ -13,7 +13,7 @@ Node v18.12.1
 
 ## Installing
 
-Once you used this repository as a template, go to your root folder and install dependencies:
+Once you cloned this repository as a template, go to your root folder and install dependencies:
 
 ```
 npm install
