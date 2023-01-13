@@ -27,9 +27,13 @@ All of your HTML should be written in the `./html` folder. There are 4 basic fol
 
 `/_layout/`: this will contain a basic layout for your page that can be used in your pages so you don't have to write multiple footers, headers, navbars, heads and scripts with the same content in differente pages. 
 - Your `layout.html` is going to use the other files as modules and will contain your content too. Feel free for adding/deleting stuff.
+
 `/components/`: should contain parts of code that you're going to reuse
+
 `/content/`: the content of each page should be here
+
 `/scripts`: you can have bottom scripts for each page here
+
 `*.html in the root`: these are going to be your pages.
 - a basic page in the root looks like this:
 ```
