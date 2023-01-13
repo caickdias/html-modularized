@@ -56,8 +56,9 @@ To create a new page you can  run the command below:
 ```
 node create page page-name (args)
 ```
-| Args   |              |         |
-|---------------------------------|
+
+## Args
+
 | Command | Description | Example |
 |---------|-------------|---------|
 |--noscript or -ns | will not create file in scripts folder | `node create page page-with-no-script --noscript` |
